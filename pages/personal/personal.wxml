@@ -1,0 +1,48 @@
+<!--personal.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="userinfo-list">
+     <view class="userinfo-list-h3">麦吉丽商城
+        <image src="http://www.leheavengame.com/wxImages/icon/down.png"></image>
+     </view>
+     <navigator url="" class="userinfo-list-item">
+      <image src="http://www.leheavengame.com/wxImages/icon/right.png"></image>
+      我的订单
+     </navigator>
+     <navigator url="" class="userinfo-list-item">
+     <image src="http://www.leheavengame.com/wxImages/icon/right.png"></image>
+      收货地址
+     </navigator>
+      <navigator url="" class="userinfo-list-item">
+       <image src="http://www.leheavengame.com/wxImages/icon/right.png"></image>
+        我的优惠券
+      </navigator>
+  </view>
+ 
+  
+  <view class="footer-nav">
+  <navigator class="footer-nav-item" url="/pages/index/index" open-type="redirect">
+  <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-nav01.png"></image>
+  首页
+  </navigator>
+  <navigator class="footer-nav-item" url="/pages/brand/brand" open-type="redirect">
+   <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-nav02.png"></image>
+   品牌中心
+  </navigator>
+  <navigator class="footer-nav-item" url="/pages/promotion/promotion" open-type="redirect">
+   <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-nav03.png"></image>
+   全国招商
+  </navigator>
+  <navigator class="footer-nav-item" url="/pages/location/location" open-type="redirect">
+   <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-nav04.png"></image>
+  专柜定位
+  </navigator>
+  <navigator class="footer-nav-item">
+   <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-navh05.png"></image>
+   我的
+  </navigator>
+  </view>
+</view>

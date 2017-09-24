@@ -1,0 +1,12 @@
+/* location.wxss */
+.store{
+  height: 320rpx;
+}
+.location-title{
+   padding: 10px 0;
+   text-align: center;
+   background: #faf1ea;
+}
+.location-img{
+  height: 860rpx;
+}

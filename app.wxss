@@ -1,0 +1,54 @@
+/**app.wxss**/
+.container {
+  /* height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box; */
+  font-size: 12px;
+  padding-bottom: 51px;
+  color: #353535;
+} 
+.mian-head{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 40px;
+  background: #fff;
+  z-index: 100;
+  text-align: center;
+  border-bottom: 1rpx solid #cccccc;
+}
+.mian-head image{
+  width: 32px;
+  height: 32px;
+  margin-top: 4px;
+}
+.footer-nav{
+  position: fixed;
+  display: flex;
+  width: 100%;
+  bottom: 0px;
+  height: 50px;
+  background: black;
+  background: #fff;
+  color: #000;
+  border-top: 1rpx solid #cccccc;
+  z-index: 99;
+}
+.footer-nav .footer-nav-item{
+  flex: 1;
+  text-align: center;
+  font-size: 11px;
+}
+.foot-icon{
+  width: 26px;
+  height: 26px;
+  display: block;
+  margin: 8rpx auto;
+}
+.clearfix{
+  clear: both;
+}

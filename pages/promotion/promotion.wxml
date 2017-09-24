@@ -1,0 +1,35 @@
+<!--promotion.wxml-->
+<view class="container">
+<view class="pro-box">
+   <image src="http://www.leheavengame.com/wxImages/promotion.jpg"></image>
+   <text class="pro-title">麦吉丽杭州招商部</text>
+</view>
+<view class="address">
+   浙江省杭州市
+   <text class="distance">（大约5公里）</text>
+   <image src="http://www.leheavengame.com/wxImages/icon/foot-navh04.png"></image>
+</view>
+<image class="propaganda-image" src="http://www.leheavengame.com/wxImages/propaganda.jpg"></image>
+   <view class="footer-nav">
+  <navigator class="footer-nav-item"  url="/pages/index/index" open-type="redirect">
+  <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-nav01.png"></image>
+  首页
+  </navigator>
+  <navigator class="footer-nav-item" url="/pages/brand/brand" open-type="redirect">
+   <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-nav02.png"></image>
+   品牌中心
+  </navigator>
+  <navigator class="footer-nav-item">
+   <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-navh03.png"></image>
+   全国招商
+  </navigator>
+  <navigator class="footer-nav-item" url="/pages/location/location" open-type="redirect">
+   <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-nav04.png"></image>
+  专柜定位
+  </navigator>
+  <navigator class="footer-nav-item" url="/pages/personal/personal" open-type="redirect">
+   <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-nav05.png"></image>
+   我的
+  </navigator>
+  </view>
+</view>

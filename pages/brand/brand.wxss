@@ -1,0 +1,27 @@
+/* brand.wxss */
+.home-swiper{
+  width: 100%;
+  height: auto;
+  padding-top: 40px;
+}
+.home-swiper swiper{
+  height: 200px;
+}
+.slide-image{
+  width: 100%;
+  height: 200px;
+}
+.good-nav{
+  display: flex;
+  height: 68px;
+}
+.good-nav-item{
+  text-align: center;
+  flex: 1;
+}
+.good-nav-item image{
+  width: 36px;
+  height: 36px;
+  display: block;
+  margin:5px auto;
+}

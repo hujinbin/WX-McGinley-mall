@@ -1,0 +1,157 @@
+/**index.wxss**/
+.home-swiper{
+  width: 100%;
+  height: auto;
+}
+.slide-image{
+  width: 100%;
+  height: 200px;
+}
+.good-nav{
+  display: flex;
+  height: 68px;
+}
+.good-nav-item{
+  text-align: center;
+  flex: 1;
+}
+.good-nav-item image{
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin:5px auto;
+}
+/* 公告 */
+.notice{
+  border-top: 5px solid #f5f5f5;
+  border-bottom: 5px solid #f5f5f5;
+  height: 26px;
+  line-height: 26px;
+  text-indent: 20rpx;
+}
+/* 小图标 */
+.home-icon{
+  width: 15px;
+  height: 15px;
+  vertical-align:text-bottom;
+}
+/* 品牌专区 */
+.brand-head{
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-bottom: 1px solid #eeeeee;
+}
+.brand-content{
+  display: flex;
+  padding: 10px 5px;
+}
+.brand-item{
+  flex: 1;
+  margin: 0 14rpx;
+}
+.brand-item image{
+  width: 100%;
+  height: 120rpx;
+}
+.brand-img{
+  border: 20rpx solid #f5f5f5;
+}
+.brand-img image{
+  width: 100%;
+  height: 360rpx;
+}
+.recommend-title{
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-bottom: 1px solid #eeeeee;
+}
+.recommend-list{
+  padding: 14rpx 8rpx;
+  display: flex;
+  border-bottom: 20rpx solid #f5f5f5;
+}
+.recommend-good{
+  flex: 1;
+  margin: 0 8rpx;
+}
+.recommend-good image{
+  width: 100%;
+  height: 200rpx;
+}
+.good-name{
+  height: 34px;
+  line-height: 120%;
+}
+.new-prize{
+  color: #f35150;
+}
+.old-prize{
+  font-size: 10px;
+  color: #888888;
+  text-decoration: line-through;
+}
+.new-stores{
+  background: #f5f5f5;
+  position: relative;
+}
+.none-border{
+  border: none;
+}
+.gray-solid{
+  width: 30%;
+  height: 1px;
+  background: #ececec;
+  position: absolute;
+  top: 18px;
+}
+.right-solid{
+  right: 0px;
+}
+.new-stores-list{
+  padding: 16rpx 1vw;
+}
+.new-good{
+  margin: 0 1vw;
+  background: #fff;
+  padding: 1vw;
+  width: 44vw;
+  float: left;
+}
+.new-good image{
+  width: 46vw;
+  height: 48vw;
+  margin: -1vw -1vw 0 -1vw;
+}
+.list-end{
+  height:36px;
+  line-height:36px;
+  text-align:center;
+  position: relative;
+  color: #888888;
+}
+.layer-box{
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+  width: 35px;
+  height: 80px;
+}
+.layer-btn{
+  background: #444154;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  display: block;
+  line-height: 46px;
+  border-radius: 50%;
+}
+.layer-cart{
+  margin-top: 10px;
+}
+.layer-cart image{
+   width: 20px;
+  height: 20px;
+  margin: 7px auto;
+}

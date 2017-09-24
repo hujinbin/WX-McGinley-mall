@@ -1,0 +1,170 @@
+<!--index.wxml-->
+<view class="container">
+<view class="home-swiper">
+ <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+<view class="good-nav">
+  <navigator class="good-nav-item" url="url">
+  <image src="http://www.leheavengame.com/wxImages/good-nav01.png"></image>
+  护肤系列
+  </navigator>
+  <navigator class="good-nav-item" url="url">
+   <image src="http://www.leheavengame.com/wxImages/good-nav02.png"></image>
+  面膜系列
+  </navigator>
+  <navigator class="good-nav-item" url="url">
+   <image src="http://www.leheavengame.com/wxImages/good-nav03.png"></image>
+  彩妆系列
+  </navigator>
+  <navigator class="good-nav-item" url="url">
+   <image src="http://www.leheavengame.com/wxImages/good-nav04.png"></image>
+ 小样旅行装</navigator>
+  <navigator class="good-nav-item" url="url">
+   <image src="http://www.leheavengame.com/wxImages/good-nav05.png"></image>
+ 赠品专区</navigator>
+</view>
+<view class="notice">公告：麦吉丽全国火热招商代理中</view>
+<view class="brand">
+  <view class="brand-head">
+     <image class="home-icon" src="http://www.leheavengame.com/wxImages/icon/brand.png"></image>
+      品牌专区
+  </view>
+  <view class="brand-content">
+     <view class="brand-item">
+       <image src="http://www.leheavengame.com/wxImages/brand01.jpg"></image>
+     </view>
+      <view class="brand-item">
+       <image src="http://www.leheavengame.com/wxImages/brand02.jpg"></image>
+     </view>
+      <view class="brand-item">
+       <image src="http://www.leheavengame.com/wxImages/brand03.jpg"></image>
+     </view>
+  </view>
+  <view class="brand-img">
+     <image src="http://www.leheavengame.com/wxImages/brandBig.jpg"></image>
+  </view>
+ <view class="good-recommend">
+   <view class="brand-head">
+    <image class="home-icon" src="http://www.leheavengame.com/wxImages/icon/recommend.png"></image>
+     店家推荐
+   </view>
+    <view class="recommend-list">
+     <view class="recommend-good">
+        <image src="http://www.leheavengame.com/wxImages/good.png"></image>
+        <view class="good-name">麦吉丽4D约会睫毛膏</view>
+        <text class="new-prize">￥218.00</text>
+        <view class="old-prize">￥218.00</view>
+     </view>
+     <view class="recommend-good">
+        <image src="http://www.leheavengame.com/wxImages/good.png"></image>
+        <view class="good-name">麦吉丽4D约会睫毛膏</view>
+        <text class="new-prize">￥218.00</text>
+        <view class="old-prize">￥218.00</view>
+     </view>
+     <view class="recommend-good">
+        <image src="http://www.leheavengame.com/wxImages/good.png"></image>
+        <view class="good-name">麦吉丽4D约会睫毛膏</view>
+        <text class="new-prize">￥218.00</text>
+        <view class="old-prize">￥218.00</view>
+     </view>
+   </view>
+ </view>
+  <view class="good-recommend">
+   <view class="brand-head">
+    <image class="home-icon" src="http://www.leheavengame.com/wxImages/icon/hot.png"></image>
+     热品推荐
+   </view>
+   <view class="recommend-list">
+    <view class="recommend-good">
+        <image src="http://www.leheavengame.com/wxImages/good.png"></image>
+        <view class="good-name">麦吉丽4D约会睫毛膏</view>
+        <text class="new-prize">￥218.00</text>
+        <view class="old-prize">￥218.00</view>
+     </view>
+     <view class="recommend-good">
+        <image src="http://www.leheavengame.com/wxImages/good.png"></image>
+        <view class="good-name">麦吉丽4D约会睫毛膏</view>
+        <text class="new-prize">￥218.00</text>
+        <view class="old-prize">￥218.00</view>
+     </view>
+     <view class="recommend-good">
+        <image src="http://www.leheavengame.com/wxImages/good.png"></image>
+        <view class="good-name">麦吉丽4D约会睫毛膏</view>
+        <text class="new-prize">￥218.00</text>
+        <view class="old-prize">￥218.00</view>
+     </view>
+   </view>
+ </view>
+
+ <view class="new-stores">
+   <view class="gray-solid"></view>
+   <view class="gray-solid right-solid"></view>
+   <view class="brand-head none-border">
+    <image class="home-icon" src="http://www.leheavengame.com/wxImages/icon/new.png"></image>
+     新品上架
+   </view>
+   <view class="new-stores-list">
+      <view class="new-good">
+        <image src="http://www.leheavengame.com/wxImages/good.png"></image>
+        <view class="good-name">麦吉丽4D约会睫毛膏</view>
+        <text class="new-prize">￥218.00</text>
+        <text class="old-prize">￥218.00</text>
+     </view>
+      <view class="new-good">
+        <image src="http://www.leheavengame.com/wxImages/good.png"></image>
+        <view class="good-name">麦吉丽4D约会睫毛膏</view>
+        <text class="new-prize">￥218.00</text>
+        <text class="old-prize">￥218.00</text>
+     </view>
+     <view class="clearfix"></view>
+     <view class="list-end">
+       <view class="gray-solid"></view>
+       <view class="gray-solid right-solid"></view>
+       不要扯了,已经扯到底了
+     </view>
+   </view>
+ </view>
+
+<view class="layer-box">
+   <contact-button 
+  type="default-light" 
+  class="layer-btn"
+  size="20"
+  session-from="weapp">
+  </contact-button>
+  <navigator url="" class="layer-btn layer-cart">
+  <image src="http://www.leheavengame.com/wxImages/icon/cart.png"></image>
+  </navigator>
+</view>
+
+</view>
+  <view class="footer-nav">
+  <navigator class="footer-nav-item">
+  <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-navh01.png"></image>
+  首页
+  </navigator>
+  <navigator class="footer-nav-item" url="/pages/brand/brand" open-type="redirect">
+   <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-nav02.png"></image>
+   品牌中心
+  </navigator>
+  <navigator class="footer-nav-item" url="/pages/promotion/promotion" open-type="redirect">
+   <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-nav03.png"></image>
+   全国招商
+  </navigator>
+  <navigator class="footer-nav-item" url="/pages/location/location" open-type="redirect">
+   <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-nav04.png"></image>
+  专柜定位
+  </navigator>
+  <navigator class="footer-nav-item" url="/pages/personal/personal" open-type="redirect">
+   <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-nav05.png"></image>
+   我的
+  </navigator>
+  </view>
+</view>
