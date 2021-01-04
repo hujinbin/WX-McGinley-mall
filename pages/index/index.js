@@ -4,9 +4,9 @@ var app = getApp()
 Page({
   data: {
     imgUrls: [
-      'http://www.leheavengame.com/wxImages/swiper01.jpg',
-      'http://www.leheavengame.com/wxImages/swiper02.jpg',
-      'http://www.leheavengame.com/wxImages/swiper03.jpg'
+      'http://bbs.leheavengame.com/wxImages/swiper01.jpg',
+      'http://bbs.leheavengame.com/wxImages/swiper02.jpg',
+      'http://bbs.leheavengame.com/wxImages/swiper03.jpg'
     ],
     indicatorDots: true,
     autoplay: true,

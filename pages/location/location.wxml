@@ -1,29 +1,29 @@
 <!--location.wxml-->
 <view class="container">
-  <image class="store" src="http://www.leheavengame.com/wxImages/store.jpg"></image>
+  <image class="store" src="http://bbs.leheavengame.com/wxImages/store.jpg"></image>
   <view class="location-title">
      专柜查询、加盟代理，长按下面二维码咨询
   </view>
-  <image class="location-img" src="http://www.leheavengame.com/wxImages/bj11.jpg"></image>
+  <image class="location-img" src="http://bbs.leheavengame.com/wxImages/bj11.jpg"></image>
    <view class="footer-nav">
   <navigator class="footer-nav-item"  url="/pages/index/index" open-type="redirect">
-  <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-nav01.png"></image>
+  <image class="foot-icon" src="http://bbs.leheavengame.com/wxImages/icon/foot-nav01.png"></image>
   首页
   </navigator>
   <navigator class="footer-nav-item" url="/pages/brand/brand" open-type="redirect">
-   <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-nav02.png"></image>
+   <image class="foot-icon" src="http://bbs.leheavengame.com/wxImages/icon/foot-nav02.png"></image>
    品牌中心
   </navigator>
   <navigator class="footer-nav-item" url="/pages/promotion/promotion" open-type="redirect">
-   <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-nav03.png"></image>
+   <image class="foot-icon" src="http://bbs.leheavengame.com/wxImages/icon/foot-nav03.png"></image>
    全国招商
   </navigator>
   <navigator class="footer-nav-item">
-   <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-navh04.png"></image>
+   <image class="foot-icon" src="http://bbs.leheavengame.com/wxImages/icon/foot-navh04.png"></image>
   专柜定位
   </navigator>
   <navigator class="footer-nav-item" url="/pages/personal/personal" open-type="redirect">
-   <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-nav05.png"></image>
+   <image class="foot-icon" src="http://bbs.leheavengame.com/wxImages/icon/foot-nav05.png"></image>
    我的
   </navigator>
   </view>

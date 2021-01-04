@@ -1,7 +1,7 @@
 <!--brand.wxml-->
 <view class="container">
  <view class="mian-head">
-    <image src="http://www.leheavengame.com/wxImages/logo.jpg"></image>
+    <image src="http://bbs.leheavengame.com/wxImages/logo.jpg"></image>
   </view>
 <view class="home-swiper">
  <swiper indicator-dots="{{indicatorDots}}"
@@ -15,46 +15,46 @@
 </view>
 <view class="good-nav">
   <navigator class="good-nav-item" url="url">
-  <image src="http://www.leheavengame.com/wxImages/brand-nav01.png"></image>
+  <image src="http://bbs.leheavengame.com/wxImages/brand-nav01.png"></image>
   品牌故事
   </navigator>
   <navigator class="good-nav-item" url="url">
-   <image src="http://www.leheavengame.com/wxImages/brand-nav02.png"></image>
+   <image src="http://bbs.leheavengame.com/wxImages/brand-nav02.png"></image>
   创新理念
   </navigator>
   <navigator class="good-nav-item" url="url">
-   <image src="http://www.leheavengame.com/wxImages/brand-nav03.png"></image>
+   <image src="http://bbs.leheavengame.com/wxImages/brand-nav03.png"></image>
   好评反馈
   </navigator>
   <navigator class="good-nav-item" url="url">
-   <image src="http://www.leheavengame.com/wxImages/brand-nav04.png"></image>
+   <image src="http://bbs.leheavengame.com/wxImages/brand-nav04.png"></image>
   媒体资讯
  </navigator>
   <navigator class="good-nav-item" url="url">
-   <image src="http://www.leheavengame.com/wxImages/brand-nav05.png"></image>
+   <image src="http://bbs.leheavengame.com/wxImages/brand-nav05.png"></image>
    联系我们
  </navigator>
 </view>
 
    <view class="footer-nav">
   <navigator class="footer-nav-item"  url="/pages/index/index" open-type="redirect">
-  <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-nav01.png"></image>
+  <image class="foot-icon" src="http://bbs.leheavengame.com/wxImages/icon/foot-nav01.png"></image>
   首页
   </navigator>
   <navigator class="footer-nav-item">
-   <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-navh02.png"></image>
+   <image class="foot-icon" src="http://bbs.leheavengame.com/wxImages/icon/foot-navh02.png"></image>
    品牌中心
   </navigator>
   <navigator class="footer-nav-item" url="/pages/promotion/promotion" open-type="redirect">
-   <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-nav03.png"></image>
+   <image class="foot-icon" src="http://bbs.leheavengame.com/wxImages/icon/foot-nav03.png"></image>
    全国招商
   </navigator>
   <navigator class="footer-nav-item" url="/pages/location/location" open-type="redirect">
-   <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-nav04.png"></image>
+   <image class="foot-icon" src="http://bbs.leheavengame.com/wxImages/icon/foot-nav04.png"></image>
   专柜定位
   </navigator>
   <navigator class="footer-nav-item" url="/pages/personal/personal" open-type="redirect">
-   <image class="foot-icon" src="http://www.leheavengame.com/wxImages/icon/foot-nav05.png"></image>
+   <image class="foot-icon" src="http://bbs.leheavengame.com/wxImages/icon/foot-nav05.png"></image>
    我的
   </navigator>
   </view>
